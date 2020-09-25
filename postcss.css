@@ -1,0 +1,15 @@
+
+/* helpers/icon.css */
+/*tamaño del icono*/ 
+.icon {
+    font-size: 1.5rem;
+}
+
+.form__input:valid + .icon::after {
+    content: '😃';
+}
+
+.form__input:invalid + .icon::after {
+    content: '😳';
+}
+
