@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+  body {
+    background: rgb(236, 236, 236);
+    min-height: 100vh;
+  }
+
+  .contenedor-encabezado{
+    background: rgb(119, 119, 119);
+    width: 100%;
+    height: 40px;
+    display: table;
+}
+.titulo {
+    width: 50%;
+    font-size: 13px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.datos-usuario {
+    width: 50%;
+    font-size: 13px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+.datos-usuario img {
+    margin-right: 3px;
+}
+.datos-usuario a {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    margin: auto 10px;
+    padding: 5px 10px 5px;
+    background: rgb(119, 119, 119);
+    color: white;
+    border-radius: 3px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: 0.5s all;
+}
+.datos-usuario a:hover{
+    background: rgb(187, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgb(71, 71, 71);
+}
+
+.contenedor-cuerpo{
+    background: white;
+    display: block;
+    margin: 20px 80px;
+    border: 1px solid black;
+    border-top: 7px solid rgb(187, 0, 0);
+    border-bottom: 7px solid rgb(119, 119, 119);
+    box-shadow: 0px 0px 10px 0px rgb(71, 71, 71);
+}
+.contenedor-cuerpo .cuerpo-calendario{
+    width: 54%;
+    margin: 10px auto;
+}
+.botones-from-modal{
+    text-align: right;
+}
